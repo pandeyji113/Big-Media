@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f8fafc;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+}
+
+/* Nav Bar */
+
+.navbar-nav .nav-link:hover {
+  color: #00c6ff !important;
+  transition: color 0.3s ease;
+}
+
+/* Slider */
+.carousel-inner {
+  height: 400px;
+  overflow: hidden;
+}
+
+.slider-img {
+  height: auto;
+  max-height: 400px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 0 !important;
+
+}
+
+@media (max-width: 768px) {
+  .carousel-inner {
+    height: 200px;
+  }
+}
+
+
+
+/* SECTION GENERAL STYLING */
+.section {
+  padding: 60px 0;
+}
+
+.section-light {
+  background-color: #ffffff;
+}
+
+.section-grey {
+  background-color: #f5f5f5;
+}
+
+.section-dark {
+  background-color: #222;
+  color: white;
+}
+
+/* Our Portfolio */
+
+body {
+  background: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.portfolio-section {
+  background: #f8f9fa;
+}
+
+.section-divider {
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right, #ff4e50, #f9d423, #24fe41);
+  width: 150px;
+  border-radius: 4px;
+  margin: 0 auto 40px;
+}
+
+.portfolio-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-card img {
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.view-more-btn {
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.more-cards {
+  transition: all 0.4s ease-in-out;
+}
+
+
+/* Brand logo */
+.brands-section {
+  background: linear-gradient(135deg, #f0f4f8, #e0f7fa); /* Soft gradient bg */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.brands-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e3a5f;
+  margin-bottom: 40px;
+}
+
+.brand-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+.brand-logos img {
+  background: white;
+  border-radius: 16px;
+  padding: 18px;
+  height: 80px;
+  width: 100%;
+  max-width: 180px;
+  object-fit: contain;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brand-logos img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .brands-section h2 {
+    font-size: 2rem;
+  }
+
+  .brand-logos img {
+    height: 60px;
+    padding: 12px;
+  }
+}
+
+/* Why Choose BIG media*/
+
+#why-choose {
+  /* background: linear-gradient(135deg, #f0f4f8, #e0f7fa); */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#why-choose h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #1e3a5f;
+  margin-bottom: 60px;
+}
+
+#features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+#card i {
+  font-size: 2.8rem;
+  color: #ff5722;
+  margin-bottom: 20px;
+}
+
+#card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1e3a5f;
+}
+
+#card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  #why-choose h2 {
+    font-size: 2.2rem;
+  }
+
+  #card h3 {
+    font-size: 1.2rem;
+  }
+
+  #card p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Contact Us */
+
+#contact {
+  background: linear-gradient(135deg, #f0f4f8, #e6f0ff);
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.contact-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-form,
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  padding: 30px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #0d47a1;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0d47a1;
+  outline: none;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  background: #5b27f1;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #3a1cc3;
+}
+
+.map-placeholder {
+  height: 240px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+  color: #5b27f1;
+  margin-top: 0;
+}
+
+.contact-info p {
+  line-height: 1.6;
+  color: #444;
+}
+
+.contact-info a {
+  color: #0d47a1;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-box {
+    flex-direction: column;
+  }
+}
+/* Footor */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.custom-footer {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-left, .footer-center, .footer-right {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.footer-center ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center ul li {
+  margin-bottom: 8px;
+}
+
+.footer-center ul li a {
+  text-decoration: none;
+  color: #a0cfff;
+  transition: 0.3s;
+}
+
+.footer-center ul li a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-right a {
+  color: #a0cfff;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  color: #ffffff;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #a0cfff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-icons a {
+    margin: 5px;
+  }
+}
+

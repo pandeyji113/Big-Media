@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>BIG Media</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!--  NAVBAR START -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top"
+    style="background: linear-gradient(to right, #141e30, #243b55); box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="website logo/website logo.png" alt="BIG Media"
+          style="height: 48px; background: white; border-radius: 12px; padding: 6px; margin-right: 10px;">
+        <span style="color: #f8f9fa; font-weight: 700; font-size: 1.4rem;">BIG Media</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" style="color: #f8f9fa;" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" style="color: #e0e0e0;" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" style="color: #e0e0e0;" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" style="color: #e0e0e0;" href="our-clients.html">Our Clients</a></li>
+          <li class="nav-item"><a class="nav-link" style="color: #e0e0e0;" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" style="color: #e0e0e0;" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--  NAVBAR END -->
+
+  <!-- Slider -->
+  <section class="section section-dark">
+    <div id="bigMediaCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Slider images/image1.png" class="d-block w-100 slider-img" alt="Creative Advertising">
+        </div>
+        <div class="carousel-item">
+          <img src="Slider images/image2.png" class="d-block w-100 slider-img" alt="Outdoor Campaigns">
+        </div>
+        <div class="carousel-item">
+          <img src="Slider images/image3.png" class="d-block w-100 slider-img" alt="Client Trust">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#bigMediaCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#bigMediaCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <!-- Curved Divider -->
+    <div class="curved-divider"></div>
+  </section>
+
+  <!-- Slider end -->
+
+  <!-- Portfolio -->
+  <section class="container py-5 text-center">
+    <h2 class="mb-4">OUR PORTFOLIO</h2>
+    <hr class="section-divider mb-5">
+
+    <div class="row g-4" id="portfolioCards">
+      <!-- 1 to 9 Cards -->
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Our Portfolio/NEON_BOARD.png" class="card-img-top" alt="NEON SIGN BOARD">
+              <div class="card-body">
+                <h5 class="card-title">NEON SIGN BOARD</h5>
+                <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage solutions.
+                </p>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal1">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Our Portfolio/LED_SIGN_BOARD.png" class="card-img-top" alt="LED SIGN BOARD">
+              <div class="card-body">
+                <h5 class="card-title">LED SIGN BOARD</h5>
+                <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage solutions.
+                </p>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal2">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Our Portfolio/ACP_SIGN_BOARD.png" class="card-img-top" alt="ACP SIGN BOARD">
+              <div class="card-body">
+                <h5 class="card-title">ACP SIGN BOARD</h5>
+                <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage solutions.
+                </p>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal3">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Our Portfolio/3D_ACRYLIC_LETTER_BOARD.png" class="card-img-top"
+                alt="3D ACRYLIC LETTER SIGN BOARD">
+              <div class="card-body">
+                <h5 class="card-title">3D ACRYLIC LETTER SIGN BOARD</h5>
+                <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage solutions.
+                </p>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal4">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Our Portfolio/STAINLESS_STEEL_SIGN_BOARD.png" class="card-img-top"
+                alt="STAINLESS STEEL SIGN BOARD">
+              <div class="card-body">
+                <h5 class="card-title">STAINLESS STEEL SIGN BOARD</h5>
+                <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage solutions.
+                </p>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal5">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Our Portfolio/3D_BRASS_LETTER.png" class="card-img-top" alt="3D BRASS LETTER SIGN BOARD">
+              <div class="card-body">
+                <h5 class="card-title">3D BRASS LETTER SIGN BOARD</h5>
+                <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage solutions.
+                </p>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal6">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Our Portfolio/TOTEM_POLE_SIGNAGE.png" class="card-img-top" alt="TOTEM POLE SIGNAGE">
+              <div class="card-body">
+                <h5 class="card-title">TOTEM POLE SIGNAGE</h5>
+                <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage solutions.
+                </p>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal7">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Our Portfolio/UNIPOLE_HOARDING.png" class="card-img-top" alt="UNIPOLE HOARDING">
+              <div class="card-body">
+                <h5 class="card-title">UNIPOLE HOARDING</h5>
+                <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage solutions.
+                </p>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal8">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="Our Portfolio/DIRECTION_SIGN_BOARD.png" class="card-img-top" alt="DIRECTION SIGN BOARD">
+              <div class="card-body">
+                <h5 class="card-title">DIRECTION SIGN BOARD</h5>
+                <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage solutions.
+                </p>
+                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal9">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- MODALS SECTION  1-9 -->
+          <!-- Model 1 -->
+          <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal1Label">NEON SIGN BOARD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/NEON_BOARD.png" class="img-fluid mb-3 rounded" alt="NEON SIGN BOARD">
+                  <p><strong>Client:</strong> Urban Street Café</p>
+                  <p><strong>Location:</strong> Dadar, Mumbai</p>
+                  <p><strong>Size:</strong> 6ft x 3ft</p>
+                  <p><strong>Material:</strong> Glass Neon with Acrylic Base</p>
+                  <p><strong>Installed:</strong> June 2024</p>
+                  <p><strong>Review:</strong> "Creative Concepts delivered exactly what we imagined. Excellent finish!"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- model 2 -->
+          <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal2Label">LED SIGN BOARD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/LED_SIGN_BOARD.png" class="img-fluid mb-3 rounded" alt="LED SIGN BOARD">
+                  <p><strong>Client:</strong> Bright Ideas Pvt Ltd</p>
+                  <p><strong>Location:</strong> Andheri, Mumbai</p>
+                  <p><strong>Size:</strong> 8ft x 4ft</p>
+                  <p><strong>Material:</strong> LED with ACP backing</p>
+                  <p><strong>Installed:</strong> May 2024</p>
+                  <p><strong>Review:</strong> "Loved the vibrant lights and durability. Very professional team."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 3 -->
+          <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal3Label">ACP SIGN BOARD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/ACP_SIGN_BOARD.png" class="img-fluid mb-3 rounded" alt="ACP SIGN BOARD">
+                  <p><strong>Client:</strong> Techno Edge Solutions</p>
+                  <p><strong>Location:</strong> Pune</p>
+                  <p><strong>Size:</strong> 10ft x 5ft</p>
+                  <p><strong>Material:</strong> Aluminium Composite Panel</p>
+                  <p><strong>Installed:</strong> April 2024</p>
+                  <p><strong>Review:</strong> "The finish is sleek and modern. Highly recommended."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Model 4 -->
+          <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal4Label">3D ACRYLIC LETTER SIGN BOARD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/3D_ACRYLIC_LETTER_BOARD.png" class="img-fluid mb-3 rounded"
+                    alt="3D ACRYLIC LETTER SIGN BOARD">
+                  <p><strong>Client:</strong> Urban Street Café</p>
+                  <p><strong>Location:</strong> Dadar, Mumbai</p>
+                  <p><strong>Size:</strong> 6ft x 3ft</p>
+                  <p><strong>Material:</strong> Glass Neon with Acrylic Base</p>
+                  <p><strong>Installed:</strong> June 2024</p>
+                  <p><strong>Review:</strong> "Creative Concepts delivered exactly what we imagined. Excellent finish!"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- model 5 -->
+          <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal5Label">STAINLESS STEEL SIGN BOARD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/STAINLESS_STEEL_SIGN_BOARD.png" class="img-fluid mb-3 rounded"
+                    alt="STAINLESS STEEL SIGN BOARD">
+                  <p><strong>Client:</strong> Bright Ideas Pvt Ltd</p>
+                  <p><strong>Location:</strong> Andheri, Mumbai</p>
+                  <p><strong>Size:</strong> 8ft x 4ft</p>
+                  <p><strong>Material:</strong> LED with ACP backing</p>
+                  <p><strong>Installed:</strong> May 2024</p>
+                  <p><strong>Review:</strong> "Loved the vibrant lights and durability. Very professional team."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 6 -->
+          <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal6Label">3D BRASS LETTER SIGN BOARD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/3D_BRASS_LETTER.png" class="img-fluid mb-3 rounded"
+                    alt="3D BRASS LETTER SIGN BOARD">
+                  <p><strong>Client:</strong> Techno Edge Solutions</p>
+                  <p><strong>Location:</strong> Pune</p>
+                  <p><strong>Size:</strong> 10ft x 5ft</p>
+                  <p><strong>Material:</strong> Aluminium Composite Panel</p>
+                  <p><strong>Installed:</strong> April 2024</p>
+                  <p><strong>Review:</strong> "The finish is sleek and modern. Highly recommended."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Model 7 -->
+          <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal7Label">TOTEM POLE SIGNAGE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/TOTEM_POLE_SIGNAGE.png" class="img-fluid mb-3 rounded"
+                    alt="TOTEM POLE SIGNAGE">
+                  <p><strong>Client:</strong> Urban Street Café</p>
+                  <p><strong>Location:</strong> Dadar, Mumbai</p>
+                  <p><strong>Size:</strong> 6ft x 3ft</p>
+                  <p><strong>Material:</strong> Glass Neon with Acrylic Base</p>
+                  <p><strong>Installed:</strong> June 2024</p>
+                  <p><strong>Review:</strong> "Creative Concepts delivered exactly what we imagined. Excellent finish!"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- model 8 -->
+          <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modal8Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal8Label">UNIPOLE HOARDING</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/UNIPOLE_HOARDING.png" class="img-fluid mb-3 rounded" alt="UNIPOLE HOARDING">
+                  <p><strong>Client:</strong> Bright Ideas Pvt Ltd</p>
+                  <p><strong>Location:</strong> Andheri, Mumbai</p>
+                  <p><strong>Size:</strong> 8ft x 4ft</p>
+                  <p><strong>Material:</strong> LED with ACP backing</p>
+                  <p><strong>Installed:</strong> May 2024</p>
+                  <p><strong>Review:</strong> "Loved the vibrant lights and durability. Very professional team."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 9 -->
+          <div class="modal fade" id="modal9" tabindex="-1" aria-labelledby="modal9Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal9Label">DIRECTION SIGN BOARD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/DIRECTION_SIGN_BOARD.png" class="img-fluid mb-3 rounded"
+                    alt="DIRECTION SIGN BOARD">
+                  <p><strong>Client:</strong> Techno Edge Solutions</p>
+                  <p><strong>Location:</strong> Pune</p>
+                  <p><strong>Size:</strong> 10ft x 5ft</p>
+                  <p><strong>Material:</strong> Aluminium Composite Panel</p>
+                  <p><strong>Installed:</strong> April 2024</p>
+                  <p><strong>Review:</strong> "The finish is sleek and modern. Highly recommended."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hidden Model Section 10-15 -->
+
+          <!-- Modal 10 -->
+          <div class="modal fade" id="modal10" tabindex="-1" aria-labelledby="modal10Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal10Label">SAFETY SIGN BOARD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/SAFETY_SIGN_BOARD.png" class="img-fluid mb-3 rounded" alt="SAFETY SIGN BOARD">
+                  <p><strong>Client:</strong> Techno Edge Solutions</p>
+                  <p><strong>Location:</strong> Pune</p>
+                  <p><strong>Size:</strong> 10ft x 5ft</p>
+                  <p><strong>Material:</strong> Aluminium Composite Panel</p>
+                  <p><strong>Installed:</strong> April 2024</p>
+                  <p><strong>Review:</strong> "The finish is sleek and modern. Highly recommended."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 11 -->
+          <div class="modal fade" id="modal11" tabindex="-1" aria-labelledby="modal11Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal11Label">GLOW SIGN BOARD</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/GLOW_SIGN_BOARD.png" class="img-fluid mb-3 rounded" alt="GLOW SIGN BOARD">
+                  <p><strong>Client:</strong> Techno Edge Solutions</p>
+                  <p><strong>Location:</strong> Pune</p>
+                  <p><strong>Size:</strong> 10ft x 5ft</p>
+                  <p><strong>Material:</strong> Aluminium Composite Panel</p>
+                  <p><strong>Installed:</strong> April 2024</p>
+                  <p><strong>Review:</strong> "The finish is sleek and modern. Highly recommended."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 12 -->
+          <div class="modal fade" id="modal12" tabindex="-1" aria-labelledby="modal12Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal12Label">FROSTED VINYL ON GLASS</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/FROSTED_VINYL_ON_GLASS.png" class="img-fluid mb-3 rounded"
+                    alt="FROSTED VINYL ON GLASS">
+                  <p><strong>Client:</strong> Techno Edge Solutions</p>
+                  <p><strong>Location:</strong> Pune</p>
+                  <p><strong>Size:</strong> 10ft x 5ft</p>
+                  <p><strong>Material:</strong> Aluminium Composite Panel</p>
+                  <p><strong>Installed:</strong> April 2024</p>
+                  <p><strong>Review:</strong> "The finish is sleek and modern. Highly recommended."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 13 -->
+          <div class="modal fade" id="modal13" tabindex="-1" aria-labelledby="modal13Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal13Label">DIGITAL VINYL PRINTING</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/DIGITAL_VINYL_PRINTING.png" class="img-fluid mb-3 rounded"
+                    alt="DIGITAL VINYL PRINTING">
+                  <p><strong>Client:</strong> Techno Edge Solutions</p>
+                  <p><strong>Location:</strong> Pune</p>
+                  <p><strong>Size:</strong> 10ft x 5ft</p>
+                  <p><strong>Material:</strong> Aluminium Composite Panel</p>
+                  <p><strong>Installed:</strong> April 2024</p>
+                  <p><strong>Review:</strong> "The finish is sleek and modern. Highly recommended."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 14 -->
+          <div class="modal fade" id="modal14" tabindex="-1" aria-labelledby="modal14Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal14Label">CRYSTAL SIGNAGE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/CRYSTAL SIGNAGE.png" class="img-fluid mb-3 rounded" alt="CRYSTAL SIGNAGE">
+                  <p><strong>Client:</strong> Techno Edge Solutions</p>
+                  <p><strong>Location:</strong> Pune</p>
+                  <p><strong>Size:</strong> 10ft x 5ft</p>
+                  <p><strong>Material:</strong> Aluminium Composite Panel</p>
+                  <p><strong>Installed:</strong> April 2024</p>
+                  <p><strong>Review:</strong> "The finish is sleek and modern. Highly recommended."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal 15 -->
+          <div class="modal fade" id="modal15" tabindex="-1" aria-labelledby="modal15Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal15Label">CANOPY STANDEE</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start">
+                  <img src="Our Portfolio/CANOPY_STANDEE.png" class="img-fluid mb-3 rounded" alt="CANOPY STANDEE">
+                  <p><strong>Client:</strong> Techno Edge Solutions</p>
+                  <p><strong>Location:</strong> Pune</p>
+                  <p><strong>Size:</strong> 10ft x 5ft</p>
+                  <p><strong>Material:</strong> Aluminium Composite Panel</p>
+                  <p><strong>Installed:</strong> April 2024</p>
+                  <p><strong>Review:</strong> "The finish is sleek and modern. Highly recommended."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Hidden Cards (10–15) -->
+          <div class="more-cards d-none">
+            <div class="row g-4 mt-2">
+              <div class="col-md-4">
+                <div class="card portfolio-card">
+                  <img src="Our Portfolio/SAFETY_SIGN_BOARD.png" class="card-img-top" alt="SAFETY SIGN BOARD">
+                  <div class="card-body">
+                    <h5 class="card-title">SAFETY SIGN BOARD</h5>
+                    <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage
+                      solutions.</p>
+                    <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal10">Learn
+                      More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card portfolio-card">
+                  <img src="Our Portfolio/GLOW_SIGN_BOARD.png" class="card-img-top" alt="GLOW SIGN BOARD">
+                  <div class="card-body">
+                    <h5 class="card-title">GLOW SIGN BOARD</h5>
+                    <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage
+                      solutions.</p>
+                    <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal11">Learn
+                      More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card portfolio-card">
+                  <img src="Our Portfolio/FROSTED_VINYL_ON_GLASS.png" class="card-img-top" alt="FROSTED VINYL ON GLASS">
+                  <div class="card-body">
+                    <h5 class="card-title">FROSTED VINYL ON GLASS</h5>
+                    <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage
+                      solutions.</p>
+                    <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal12">Learn
+                      More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card portfolio-card">
+                  <img src="Our Portfolio/DIGITAL_VINYL_PRINTING.png" class="card-img-top" alt="DIGITAL VINYL PRINTING">
+                  <div class="card-body">
+                    <h5 class="card-title">DIGITAL VINYL PRINTING</h5>
+                    <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage
+                      solutions.</p>
+                    <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal13">Learn
+                      More</a>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card portfolio-card">
+                  <img src="Our Portfolio/CRYSTAL SIGNAGE.png" class="card-img-top" alt="CRYSTAL SIGNAGE">
+                  <div class="card-body">
+                    <h5 class="card-title">CRYSTAL SIGNAGE</h5>
+                    <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage
+                      solutions.</p>
+                    <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal14">Learn
+                      More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card portfolio-card">
+                  <img src="Our Portfolio/CANOPY_STANDEE.png" class="card-img-top" alt="CANOPY STANDEE">
+                  <div class="card-body">
+                    <h5 class="card-title">CANOPY STANDEE</h5>
+                    <p class="card-text">From LED to Totems — we bring your brand to life with top-tier signage
+                      solutions.</p>
+                    <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modal15">Learn
+                      More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- View More Button -->
+        <div class="d-flex justify-content-center mt-5">
+          <button class="btn btn-primary view-more-btn" onclick="toggleCards()">View More</button>
+        </div>
+  </section>
+
+
+
+  <!-- Trusted Brands -->
+  <section class="brands-section">
+    <h2 class="text-center responsive-heading">Brands That Trust Us</h2>
+    <div class="brand-logos">
+      <img src="Brand Logo/extramarks.png" alt="Extramarks">
+      <img src="Brand Logo/kidzee.png" alt="Kidzee">
+      <img src="Brand Logo/Bikanervala.png" alt="Bikanervala">
+      <img src="Brand Logo/CELEBELLS.png" alt="CELEBELLS">
+      <img src="Brand Logo/KFC.png" alt="KFC">
+      <img src="Brand Logo/Mount Litera.png" alt="Mount Litera">
+      <img src="Brand Logo/Little.png" alt="Little Millennium">
+      <img src="Brand Logo/Duke.png" alt="Duke">
+      <img src="Brand Logo/SGF.png" alt="Spectrum Metro">
+      <img src="Brand Logo/Chawlas.png" alt="Chawlas">
+      <img src="Brand Logo/fitness.png" alt="Fitness">
+      <img src="Brand Logo/Hira-lal.png" alt="HIRA LAL">
+      <img src="Brand Logo/Decathloc.png" alt="Decathloc">
+      <img src="Brand Logo/PAYTM.png" alt="Paytm">
+      <img src="Brand Logo/daksya.png" alt="Dakshya Academy">
+      <img src="Brand Logo/easyday.png" alt="EasyDay">
+      <img src="Brand Logo/Just-Home.png" alt="Just Home Delivery">
+      <img src="Brand Logo/shemrok.png" alt="Shemrock">
+      <img src="Brand Logo/SNS.png" alt="SNS">
+      <img src="Brand Logo/Clarissa.png" alt="Clarissa">
+      <img src="Brand Logo/Kingswood.png" alt="Kingswood">
+      <img src="Brand Logo/ZLearn.png" alt="ZLearn">
+      <img src="Brand Logo/VG.png" alt="VG48">
+      <img src="Brand Logo/V.png" alt="Victory Institutions">
+      <img src="Brand Logo/Shree.png" alt="Shree Rathnam">
+      <img src="Brand Logo/The-Monatach.png" alt="The Monarch">
+      <img src="Brand Logo/The-Genesis.png" alt="The Genesis">
+      <img src="Brand Logo/Terrace.png" alt="Terrace">
+      <img src="Brand Logo/TBH.png" alt="TBH">
+      <img src="Brand Logo/Suruchi.png" alt="Suruchi">
+      <img src="Brand Logo/Patanjali.png" alt="Patanjali">
+      <img src="Brand Logo/Paprika.png" alt="Paprika">
+      <img src="Brand Logo/MMi.png" alt="MMI">
+    </div>
+  </section>
+  <!-- Why Choose Big Media -->
+  <section id="why-choose">
+    <h2>Why Choose BIG MEDIA?</h2>
+    <div id="features">
+      <div id="card">
+        <i class="fas fa-lightbulb"></i>
+        <h3>Creative Design</h3>
+        <p>Our in-house design team crafts unique and impactful visuals tailored to your brand.</p>
+      </div>
+      <div id="card">
+        <i class="fas fa-palette"></i>
+        <h3>Vibrant Quality</h3>
+        <p>Utilizing premium materials and modern techniques for stunning, long-lasting colors.</p>
+      </div>
+      <div id="card">
+        <i class="fas fa-rocket"></i>
+        <h3>Fast Service</h3>
+        <p>We deliver fast, on-time service without any delays.</p>
+      </div>
+      <div id="card">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Guaranteed Satisfaction</h3>
+        <p>We stand by our work, ensuring every banner meets your highest expectations.</p>
+      </div>
+      <div id="card">
+        <i class="fas fa-headset"></i>
+        <h3>Dedicated Support</h3>
+        <p>Our friendly team is here to guide you through every step of your project.</p>
+      </div>
+      <div id="card">
+        <i class="fas fa-bullhorn"></i>
+        <h3>Maximize Impact</h3>
+        <p>Designs focused on maximizing your message's visibility and brand recall.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact">
+
+    <h2 style="text-align: center;">Contact us</h2>
+
+    <div class="contact-container">
+      <div class="contact-box">
+
+        <!-- Left: Form -->
+        <div class="contact-form">
+          <h2>Contact us</h2>
+          <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" required />
+
+            <label>Email</label>
+            <input type="email" placeholder="your@email.com" required />
+
+            <label>Question</label>
+            <textarea placeholder="Enter question or feedback" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <!-- Right: Info -->
+        <div class="contact-info">
+          <div class="map-placeholder">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112134.35064911002!2d77.2899215!3d28.6353087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3c0ce7a9a9b%3A0xc8a6e7acdf963d1a!2sPatparganj%20Industrial%20Area%2C%20Delhi!5e0!3m2!1sen!2sin!4v1656480000000!5m2!1sen!2sin"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+          <div class="info">
+            <h3>Branch Office</h3>
+            <p>
+              Plot No. CS-4 (Basement of UCO Bank),<br>
+              Gyan Khand-II, Near St. Thomas School,<br>
+              Indirapuram, Ghaziabad, (UP) - 201014
+            </p>
+
+            <h3>Head Office</h3>
+            <p>
+              Plot No. 318, Ground Floor,<br>
+              Patparganj Industrial Area,<br>
+              Delhi - 110092
+            </p>
+
+            <p>
+              <strong>Phone:</strong><br>
+              +91-120-4274777<br>
+              <strong>Mobile:</strong><br>
+              +91 9871569954 | +91 8285580135
+            </p>
+
+            <p>
+              <strong>Email:</strong> bigmedia70@gmail.com<br>
+              <strong>Website:</strong> <a href="http://www.bigmedia.co.in" target="_blank">www.bigmedia.co.in</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="custom-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="website logo/website logo.png" alt="BIG Media"
+            style="height: 48px; background: white; border-radius: 12px; padding: 6px; margin-right: 10px;">
+          <span style="color: #f8f9fa; font-weight: 700; font-size: 1.4rem;">BIG Media</span>
+        </a>
+        <p>&copy; 1998–2025 <strong>BIG Media</strong>. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <!-- <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> -->
+          <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://wa.me/919871569954" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-center">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Our Clients</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <h4>Contact</h4>
+        <p><strong>Email:</strong> bigmedia70@gmail.com</p>
+        <p><strong>Phone:</strong> +91 9871569954</p>
+        <p><strong>Website:</strong> <a href="https://bigmedia.co.in">bigmedia.co.in</a></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
